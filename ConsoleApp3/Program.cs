@@ -7,7 +7,7 @@ namespace Lab_2._3_2_
         static void Main(string[] args)
         {
             int mult = 1;
-            Console.Write("Введiть кiлькiсть елементiв масиву:\t ");
+            Console.Write("Введiть кiлькiсть елементiв масиву:\t");
             int number = int.Parse(Console.ReadLine());
             int[] mass = new int[number];
             Random r = new Random();
